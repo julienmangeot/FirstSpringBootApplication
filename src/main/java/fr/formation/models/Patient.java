@@ -34,7 +34,7 @@ public class Patient {
 		return idPatient;
 	}
 
-	public void setIdPatient(int idPatient) {
+	public void setIdPatient(long idPatient) {
 		this.idPatient = idPatient;
 	}
 
