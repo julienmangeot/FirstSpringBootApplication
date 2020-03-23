@@ -29,7 +29,8 @@ public class FirstSpringBootApplication  implements CommandLineRunner{
 	//C'est pour capturer lors du run toutes les exceptions
 	public void run(String... args) throws Exception {
 		
-//		hopitalService.createHopital(new Hopital("Paris Hospital", 125, 1820));
+//		hopitalService.createHopital(new Hopital("Toulouse Hospital", 1, 1));
+//		hopitalService.deleteHopital(16);
 		
 //		Medecin m1 = new Medecin();
 //		m1.setNomMedecin("Granger");

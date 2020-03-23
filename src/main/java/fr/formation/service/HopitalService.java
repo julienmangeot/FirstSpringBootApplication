@@ -15,9 +15,8 @@ public class HopitalService implements IHopitalService{
 	@Autowired
 	IHopitalRepository hopitalRepository;
 
-	public boolean createHopital(Hopital hopital) {
-		hopitalRepository.save(hopital);
-		return true;
+	public Hopital createHopital(Hopital hopital) {
+		return hopitalRepository.save(hopital);
 	}
 
 	public boolean deleteHopital(long idHopital) {

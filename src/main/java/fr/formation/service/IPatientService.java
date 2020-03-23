@@ -14,4 +14,6 @@ public interface IPatientService {
 	public List<Patient> getAllPatient();
 
 	public Patient getPatientById(long idPatient);
+	
+	public Patient affectationPatient(long idPatient, long idMedecin);
 }

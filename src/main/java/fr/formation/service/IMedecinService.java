@@ -1,9 +1,9 @@
 package fr.formation.service;
 
 import java.util.List;
-import java.util.Optional;
 
 import fr.formation.models.Medecin;
+
 
 public interface IMedecinService {
 	
@@ -14,5 +14,7 @@ public interface IMedecinService {
 	public List<Medecin> getAllMedecin();
 	
 	public Medecin getMedecinById(long idMedecin);
+	
+	public Medecin affectationMedecin(long idMedecin, long idHopital);
 	
 }

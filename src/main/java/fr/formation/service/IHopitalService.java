@@ -7,7 +7,7 @@ import fr.formation.models.Hopital;
 
 public interface IHopitalService {
 	
-	public boolean createHopital(Hopital hopital);
+	public Hopital createHopital(Hopital hopital);
 	
 	public boolean deleteHopital(long idHopital);
 	
